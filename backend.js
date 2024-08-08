@@ -17,7 +17,7 @@ const modelo = (id) => {
         if (id != undefined){
             livros = {nome, autor, ano, genero, anoNovaVersao, id:ultimoId}
         } else {
-            livros = {nome, autor, ano, genero, anoNovaVersao, id:ultimoId}
+            livros = {nome, autor, ano, genero, anoNovaVersao, id}
         }
         ultimoId++
         return livros
